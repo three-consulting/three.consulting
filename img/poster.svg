@@ -85,7 +85,7 @@
   </defs>
   <g id="shape">
     <g class="cls-2">
-      <image id="office" width="1365" height="2048" transform="translate(22.08 -17) scale(0.41)" xlink:href="img/poster_bg.jpg"/>
+      <image id="office" width="1365" height="2048" transform="translate(22.08 -17) scale(0.41)" xlink:href="./img/poster_bg.jpg"/>
     </g>
   </g>
   <g id="texts">
