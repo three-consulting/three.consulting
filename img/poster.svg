@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 595.28 841.89">
+  <defs>
+    <style>
+      @keyframes morph {
+        0% {
+            d:path('M275.62,589.39c36.77-47.27,108.29-10.77,148.78.5C541,627.13,630.77,462.65,533.14,385A118.14,118.14,0,0,0,461.94,357c-147.1,2.61-77.18-111.88-152.5-175.5-75.77-61.7-177.23,17-133.35,102.44,14.38,32.25,58.39,91.92,2.16,117.92C-68.32,516.26,99.67,799.07,275.62,589.39Z');
+        }
+        100% {
+            d:path('M327.64,631.77c36.77-47.26,56.27-53.15,96.76-41.88C541,627.13,630.77,462.65,533.14,385A118.14,118.14,0,0,0,461.94,357c-147.1,2.61-65.74-126-141.06-189.63-75.77-61.7-188.67,31.16-144.79,116.57,14.38,32.25,8.72,59.82-47.51,85.82C-118,484.16,151.69,841.46,327.64,631.77Z');
+        }
+      }
+        
+      #mask-2 {
+        animation: morph 2s ease-out;
+      }
+
+
+      @keyframes grayscale {
+          0% {
+              filter: grayscale(1) contrast(1.8);
+          }
+          100% {
+              filter: grayscale(0) contrast(1);
+          }
+      }
+
+      #office {
+        animation: grayscale 2s ease-out;
+      }
+
+      @keyframes up-down {
+          0% {
+              transform: translateY(20px);
+          }
+          100% {
+              transform: translateY(0);
+          }
+      }
+
+      #texts {
+        animation: up-down 1s;
+      }
+
+      .cls-1 {
+        fill: white;
+      }
+
+      .cls-2 {
+        mask: url(#clip-path);
+      }
+
+      .cls-3 {
+        font-size: 36px;
+        letter-spacing: 0.01em;
+      }
+
+      .cls-3, .cls-5 {
+        fill: black;
+        font-family: AUTHENTIC Sans;
+      }
+
+      .cls-4 {
+        letter-spacing: 0.04em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0.08em;
+      }
+
+      .cls-5 {
+        font-size: 20px;
+        letter-spacing: 0.04em;
+      }
+
+      .sup {
+        fill: #888;
+        font-size: 20px;
+        vertical-align: top;
+      }
+
+    </style>
+    <mask id="clip-path" maskunits="userSpaceOnUse" maskcontentunits="userSpaceOnUse">
+      <path id="mask-2" class="cls-1" d="M327.64,631.77c36.77-47.26,56.27-53.15,96.76-41.88C541,627.13,630.77,462.65,533.14,385A118.14,118.14,0,0,0,461.94,357c-147.1,2.61-65.74-126-141.06-189.63-75.77-61.7-188.67,31.16-144.79,116.57,14.38,32.25,8.72,59.82-47.51,85.82C-118,484.16,151.69,841.46,327.64,631.77Z"/>
+    </mask>
+  </defs>
+  <g id="shape">
+    <g class="cls-2">
+      <image id="office" width="1365" height="2048" transform="translate(22.08 -17) scale(0.41)" xlink:href="img/poster_bg.jpg"/>
+    </g>
+  </g>
+  <g id="texts">
+    <text class="cls-3" transform="translate(90.14 60.22)"><tspan class="cls-6">We develop software</tspan><tspan class="cls-4"><tspan x="0" y="42">for a living and for fun<tspan class="sup" baseline-shift="super">+</tspan></tspan></tspan></text>
+    <text class="cls-5" transform="translate(216.43 798.12)">three.consulting</text>
+  </g>
+</svg>
